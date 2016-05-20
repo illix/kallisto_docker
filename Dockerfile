@@ -18,4 +18,6 @@ RUN cmake ..
 RUN make
 RUN make install
 
+ADD test.sh /kallisto/test
+
 CMD ["/bin/bash"]
