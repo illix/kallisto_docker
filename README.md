@@ -16,5 +16,6 @@ $ docker run -it --rm illix/kallisto_docker
 **Step 3**: Run a test
 ```bash
 $ cd ../test
+$ chmod +x test.sh
 $ ./test.sh
 ```
